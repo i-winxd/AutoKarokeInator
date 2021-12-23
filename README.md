@@ -34,6 +34,14 @@ Afterwards, only in the C6 note, any note you place there will be seen as new su
 the only notes in C6 play at 0:00, 0:04, and 0:07, your subtitles will switch at 0:00, 0:04, and 0:07. **It is strongly
 recommended to only place notes in C6 such that they are timed with another syllable.**
 
+## Running the .py file
+If you don't like running .exe files randomly, you can run the .py files.
+Here's how you do it:
+
+1. Make sure python is installed on your computer.
+2. Run the following commands: ``pip install mido`` and ``pip install easygui``
+3. Run ``main.py``. One way is to open CMD with the directory where your .py file is at and type ``python main.py``.
+
 Keep track of your syllables!!
 
 ## Running the program
@@ -63,3 +71,6 @@ If you want to have over two text presets that you can edit in aegisub, here's h
 Use the style manager to define styles. You may need to define
 styles that are already present on your ``.ass`` file, like ``Custom1``.
 You can find the styles manager on the top bar of Aegisub.
+
+![image](https://user-images.githubusercontent.com/31808925/147286583-c2c9bc0d-68ae-48d8-8c87-430121907727.png)
+
