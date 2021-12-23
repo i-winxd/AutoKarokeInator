@@ -223,8 +223,8 @@ def create_subtitle_line_list(linked_syllables: list[tuple[str, float, float, bo
     """
     linelist_so_far = []
     line = []  # a list of syllables
-    for syllable in linked_syllables:
-        if syllable[-1]:
+    for i, syllable in enumerate(linked_syllables):
+        if syllable[-1] or i == len(linked_syllables) - 1:
             if line != []:
                 linelist_so_far.append(line)
             line = []  # reset it
