@@ -1,7 +1,7 @@
 """
 Most of the code is copy-pasted from
 https://stackoverflow.com/questions/63105201/python-mido-how-to-get-note-starttime-stoptime-track-in-a-list
-which is under a CC-BY-SA license, as everything on stackoverflow is.
+from Philip Bergwerf which is under a CC-BY-SA license, as everything on stackoverflow is.
 """
 
 from typing import Union
