@@ -1,6 +1,5 @@
 # Auto Karoke Inator
-
-This will be useful. This app allows you to quickly create substation alpha subtitle files using existing ``.txt`` files
+This app allows you to quickly create substation alpha subtitle files using existing ``.txt`` files
 and a `.mid` file. Your `.txt` files control what is being said, and your `.mid` files control when the subtitles are
 being shown.
 
