@@ -82,16 +82,19 @@ def link_syllables(syllable_bool: list[tuple[str, bool]], timings: list[float],
     timings.append(timings[-1] + 10000.0)  # for our last line
     # for syllables, time in zip(syllable, timings):
     for i in range(0, min(len(syllable), len(timings))):
-        next_line_time = newline_timings[cur_line]
-        toggle_next_line = False
-        if math.isclose(timings[i], next_line_time) or timings[i] > next_line_time:
-            cur_line += 1
-            toggle_next_line = True
-        if first_iteration:
-            toggle_next_line = True
-            first_iteration = False  # and that only happens once
-        instance = (syllable[i], timings[i]*1000, timings[i + 1]*1000, cur_bool[i], toggle_next_line)
-        totals.append(instance)
+        try:
+            next_line_time = newline_timings[cur_line]
+            toggle_next_line = False
+            if math.isclose(timings[i], next_line_time) or timings[i] > next_line_time:
+                cur_line += 1
+                toggle_next_line = True
+            if first_iteration:
+                toggle_next_line = True
+                first_iteration = False  # and that only happens once
+            instance = (syllable[i], timings[i]*1000, timings[i + 1]*1000, cur_bool[i], toggle_next_line)
+            totals.append(instance)
+        except IndexError:
+            break
     return totals
 
 
