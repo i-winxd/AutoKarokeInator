@@ -33,6 +33,8 @@ Afterwards, only in the C6 note, any note you place there will be seen as new su
 the only notes in C6 play at 0:00, 0:04, and 0:07, your subtitles will switch at 0:00, 0:04, and 0:07. **It is strongly
 recommended to only place notes in C6 such that they are timed with another syllable.**
 
+**NOTE: YOU MAY NEED TO USE GHOST CHARACTERS (a.k.a. "-" and remove that post editing) TO DEAL WITH LONG RESTS**
+
 ## Running the .py file
 If you don't like running .exe files randomly, you can run the .py files.
 Here's how you do it:
