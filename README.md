@@ -35,6 +35,12 @@ recommended to only place notes in C6 such that they are timed with another syll
 
 **NOTE: YOU MAY NEED TO USE GHOST CHARACTERS (a.k.a. "-" and remove that post editing) TO DEAL WITH LONG RESTS**
 
+**ABOUT INITINAL SONG DELAYS: THIS PROGRAM DOES NOT OFFER A WAY TO CREATE AN OFFSET. THIS MEANS YOU MUST DELAY THE LYRICS YOURSELF
+BY INSERTING A GHOST LINE.**
+
+**THIS PROGRAM WILL ALWAYS DROP THE LAST LINE. THIS ENSURES THAT THE ACTUAL LAST LINE WON'T GO ON FOREVER.
+THIS MEANS YOUR LAST LINE SHOULD ALSO BE A GHOST LINE.**
+
 ## Running the .py file
 If you don't like running .exe files randomly, you can run the .py files.
 Here's how you do it:
