@@ -58,6 +58,8 @@ corresponding text file.
 
 If the program isn't asking you to do anything for over 10 seconds it is likely stuck. Close and re-open it.
 
+**WARNING: THE EXE FILE MAY ACTIVATE YOUR ANTIVIRUS. PYINSTALLER IS DUMB. PLEASE USE THE PY FILE WHEN POSSIBLE.**
+
 ## Multiple midi channels
 
 Best used if you have two different characters and want them both talking at the same time alongside have different
